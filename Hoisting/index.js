@@ -12,3 +12,22 @@
     //   console.log(x);
     //   console.log(b);
     //   console.log(a);
+    // var a;
+    // console.log(a)
+    // if (a===undefined){
+    //     console.log("a is undifined")
+    // }
+    // else{
+    //     console.log("a is not undifined")
+    // }
+    // var a=10;
+    // if (a===undefined){
+    //     console.log("a is undefined")
+    // }
+    // else{
+    //     console.log("a is defined")
+    // }
+    // var a="10"
+    // console.log(a)
+    // var a=10
+    // console.log(a)
