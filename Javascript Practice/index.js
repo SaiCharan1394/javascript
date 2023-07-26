@@ -50,3 +50,16 @@
 //   }
 // }
 // a();
+//block scope
+
+var a=100;
+{
+    var a=20
+    let b=100;
+    const c=100;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+
+}
+
