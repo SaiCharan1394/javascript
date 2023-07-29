@@ -118,12 +118,60 @@
 
 // Function
 
-function greet(name,lastName){
-    console.log('Hello ' + name + lastName);
-}
-greet('Sai','charan');
+// function greet(name,lastName){
+//     console.log('Hello ' + name + lastName);
+// }
+// greet('Sai','charan');
 
-function square(numbers){
-   return numbers*numbers;
-}
-console.log(square(3))
+// function square(numbers){
+//    return numbers*numbers;
+// }
+// console.log(square(3))
+
+//Operators
+
+// Arthematic Operators
+// let x=10;
+// let y=11;
+
+// console.log(x+y);
+// console.log(x-y);
+// console.log(x*y);
+// console.log(x/y);
+// console.log(x%y);
+// console.log(x**y);
+
+// Increment(++)
+
+// console.log(x++);
+// console.log(x)
+// console.log(++x);
+// console.log(x)
+
+// Decrement(--)
+
+// console.log(--x)
+
+//strict Equality (type+value)
+// console.log(1===1);
+//loose equality 
+// console.log(1==1)
+
+// Logical and (&&)
+
+// let highIncome=true;
+// let goodCreditScore=true;
+// let elegibleForLoan=highIncome&&goodCreditScore;
+// console.log('Elegible : ',elegibleForLoan);
+
+// Logical or (||)
+
+// let highIncome=true;
+// let goodCreditScore=false;
+// let elegibleForLoan=highIncome||goodCreditScore;
+// console.log('Elegible : ',elegibleForLoan);
+
+// //Logical not (!)
+
+// let applicationRejected=!elegibleForLoan;
+// console.log('Application Rejected : ',applicationRejected)
