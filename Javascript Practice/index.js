@@ -61,15 +61,69 @@
 //     console.log(b);
 //     console.log(c);
 // }
-function x(){
-    var a=1;
-    setTimeout (function y(){
-        var b=2;
-        setTimeout (function z(){
-            console.log(b)
-        },6000)
-        console.log(a)
-    },5000)
-    console.log("saicharan")
+// function x(){
+//     var a=1;
+//     setTimeout (function y(){
+//         var b=2;
+//         setTimeout (function z(){
+//             console.log(b)
+//         },6000)
+//         console.log(a)
+//     },5000)
+//     console.log("saicharan")
+// }
+// x();
+//Practice///////
+// console.log("hello world")
+// let Name='sai';
+// console.log(Name);
+// let intrestRate=0.3;
+// intrestRate=1;
+// console.log(intrestRate);
+// const intrestRate=0.3;
+// intrestRate=1;
+// console.log(intrestRate);
+ // String Literal
+//  let mame='sai';
+// let age=30; 
+// let isApporved=false; // Boolean Literal
+// let fullName=undefined; // Undefined Literal
+// let lastName=null; // Null Literal
+
+
+//Object
+
+// let person={
+//     name:'sai',
+//     age:30
+// }
+// //dot notation
+// person.name='charan';
+// // Bracket Notation
+// person['name']='akkiraju';
+// console.log(person.name)
+
+
+
+// Arrays
+
+// let selectedColours=['red','blue'];
+// console.log(selectedColours);
+// selectedColours[2]='green';
+// selectedColours[3]='yellow';
+// console.log(selectedColours);
+// console.log(selectedColours[1][2])
+
+
+
+// Function
+
+function greet(name,lastName){
+    console.log('Hello ' + name + lastName);
 }
-x();
+greet('Sai','charan');
+
+function square(numbers){
+   return numbers*numbers;
+}
+console.log(square(3))
