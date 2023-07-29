@@ -119,20 +119,68 @@
 
 // check speed
 
-function checkSpeed(speed){
-    const speedLimit=70;
-    const kmPerPoint=5;
-    if (speed<speedLimit+kmPerPoint){
-        console.log('Ok');
-    }
-    else{
-        points=Math.floor((speed-speedLimit)/kmPerPoint);
-        if (points>=12){
-            console.log('Licence Cancelld')
-        }
-        else{
-            console.log('Points : ',points)
+// function checkSpeed(speed){
+//     const speedLimit=70;
+//     const kmPerPoint=5;
+//     if (speed<speedLimit+kmPerPoint){
+//         console.log('Ok');
+//     }
+//     else{
+//         points=Math.floor((speed-speedLimit)/kmPerPoint);
+//         if (points>=12){
+//             console.log('Licence Cancelld')
+//         }
+//         else{
+//             console.log('Points : ',points)
+//         }
+//     }
+// }
+// checkSpeed(74);
+
+
+// show numbers
+
+// function showNumbers(limit){
+//     for (let i=0;i<=limit;i++){
+//         if (i%2 ===0){
+//             console.log(i+" "+"EVEN")
+//         }
+//         else{
+//             console.log(i+" "+"ODD")
+//         }
+//     }
+// }
+// showNumbers(10);
+
+
+// count trythy
+
+// function countTruthy(array){
+//     let count=0;
+//     for (let value of array){
+//         if (value){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// let b=[0,1,2,3,undefined,'']
+// console.log(countTruthy(b))
+
+
+//showProperties
+
+function showProperty(obj){
+    for (let key in obj ){
+        if (typeof(obj[key])==="string"){
+            console.log(key,obj[key])
         }
     }
 }
-checkSpeed(74);
+const movie={
+    title:'a',
+    year:2020,
+    rating:4.5,
+    director:'b'
+}
+showProperty(movie);
