@@ -15,4 +15,4 @@ const circle={
     ridus:1
 };
 circle.color='yellow'
-console.log(circle)
+console.log(circle )
