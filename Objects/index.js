@@ -7,5 +7,12 @@ function createCircle(radius){
         }
     }
 }
-const circle1=createCircle(1);
-console.log(circle1.radius)
+createCircle.color='yellow';
+console.log(createCircle)
+
+
+const circle={
+    ridus:1
+};
+circle.color='yellow'
+console.log(circle)
