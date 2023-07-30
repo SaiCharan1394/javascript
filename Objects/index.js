@@ -12,7 +12,14 @@ console.log(createCircle)
 
 
 const circle={
-    ridus:1
+    ridus:1,
+    draw(){
+        console.log('draw')
+    }
 };
-circle.color='yellow'
-console.log(circle )
+// const another={};
+// for (let key in circle){
+//     another[key]=circle[key];
+// }
+const another=Object.assign({},circle);
+console.log(another)
