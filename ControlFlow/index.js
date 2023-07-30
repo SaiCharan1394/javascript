@@ -170,17 +170,31 @@
 
 //showProperties
 
-function showProperty(obj){
-    for (let key in obj ){
-        if (typeof(obj[key])==="string"){
-            console.log(key,obj[key])
-        }
-    }
-}
-const movie={
-    title:'a',
-    year:2020,
-    rating:4.5,
-    director:'b'
-}
-showProperty(movie);
+// function showProperty(obj){
+//     for (let key in obj ){
+//         if (typeof(obj[key])==="string"){
+//             console.log(key,obj[key])
+//         }
+//     }
+// }
+// const movie={
+//     title:'a',
+//     year:2020,
+//     rating:4.5,
+//     director:'b'
+// }
+// showProperty(movie);
+
+
+
+
+
+
+
+// practice
+
+
+// function isLandscape(width,height){
+//     return(width>height)?"landscape":"no";
+// }
+// console.log(isLandscape(7,8))
