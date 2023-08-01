@@ -99,10 +99,26 @@
 //     return false;
 // }
 
-const num3 = [1, 2, 3, 4, 1, 2, 3, 5, 7, 3, 5, 6];
-console.log(except(num3, [1, 2, 5, 3]));
-function except(array, excluded) {
-  const output = [];
-  for (let i of array) if (!excluded.includes(i)) output.push(i);
-  return output;
+// const num3 = [1, 2, 3, 4, 1, 2, 3, 5, 7, 3, 5, 6];
+// console.log(except(num3, [1, 2, 5, 3]));
+// function except(array, excluded) {
+//   const output = [];
+//   for (let i of array) if (!excluded.includes(i)) output.push(i);
+//   return output;
+// }
+
+const num6=[1,2,3,4];
+const output=move(num6,0,1);
+console.log(output);
+
+function move(array,index,offset){
+    const position=index+offset
+    if (position>=array.length||position<0){
+        console.error("invaled")
+        return;
+    }
+    const output=[...array];
+    const ele=output.splice(index,1)[0];
+    output.splice(position,0,ele)
+    return output
 }
