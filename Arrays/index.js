@@ -9,8 +9,6 @@
 // // numbers.shift(numbers);
 // // console.log(numbers);
 
-
-
 // // console.log(numbers.indexOf('c'));
 
 // const courses=[
@@ -28,7 +26,6 @@
 // // console.log('array1+array2 :',combained);
 // // const slice=combained.slice(3,combained.length-1)
 // // console.log('sliced array :',slice)
-
 
 // const data=[1,2,3,4,5,6]
 // for (let i in data){
@@ -62,7 +59,6 @@
 
 // console.log(data4)
 
-
 // const data5=[1,2,3,4,5,-1]
 
 // const items=data5.filter(n =>n>0).map(n=>({value:n}));
@@ -71,7 +67,7 @@
 // const items2=data5.reduce((a,b)=>(a+b));
 // console.log(items2)
 
-// exersise 
+// exersise
 
 // const numbers= arrayFromRange(-10,-4);
 // console.log(numbers)
@@ -92,7 +88,6 @@
 //     return output;
 // }
 
-
 // const num=[1,2,3,4];
 
 // console.log(includes(num,10))
@@ -104,4 +99,10 @@
 //     return false;
 // }
 
-
+const num3 = [1, 2, 3, 4, 1, 2, 3, 5, 7, 3, 5, 6];
+console.log(except(num3, [1, 2, 5, 3]));
+function except(array, excluded) {
+  const output = [];
+  for (let i of array) if (!excluded.includes(i)) output.push(i);
+  return output;
+}
