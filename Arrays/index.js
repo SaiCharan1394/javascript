@@ -57,7 +57,51 @@
 // })
 // console.log(positive);
 
-var data4=[1,-1,3,4,'a'];
-data4.filter(n=>n>=0)
+// var data4=[1,-1,3,4,'a'];
+// data4.filter(n=>n>=0)
 
-console.log(data4)
+// console.log(data4)
+
+
+// const data5=[1,2,3,4,5,-1]
+
+// const items=data5.filter(n =>n>0).map(n=>({value:n}));
+// console.log(items)
+
+// const items2=data5.reduce((a,b)=>(a+b));
+// console.log(items2)
+
+// exersise 
+
+// const numbers= arrayFromRange(-10,-4);
+// console.log(numbers)
+
+// function arrayFromRange(min,max){
+//     const output=[];
+//     for (let i =min;i<=max;i++)
+//         output.push(i);
+//     return output;
+// }
+
+// const num2=arrayFrom(-4,-10);
+// console.log(num2);
+// function arrayFrom(max,min){
+//     const output=[];
+//     for (let i=max;i>=min;i--)
+//         output.push(i);
+//     return output;
+// }
+
+
+// const num=[1,2,3,4];
+
+// console.log(includes(num,10))
+
+// function includes(array,searchElement){
+//     for (let i of array)
+//         if (i===searchElement)
+//             return true;
+//     return false;
+// }
+
+
