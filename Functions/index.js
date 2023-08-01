@@ -24,18 +24,30 @@
 // console.log(interst(10000))
 
 
-//Getters and setters
-const person={
-    firstName:'sai',
-    secondName:'charan',
-    get fullName(){
-        return `${person.firstName} ${person.secondName}`
-    },
-    set fullName(value){
-        const parts=value.split(' ');
-        this.firstName=parts[0];
-        this.secondName=parts[1];
-    }
-};
-person.fullName='Akki Raju'
-console.log(person.firstName)  
+// //Getters and setters and try and catch
+// const person={
+//     firstName:'sai',
+//     secondName:'charan',
+//     get fullName(){
+//         return `${person.firstName} ${person.secondName}`
+//     },
+//     set fullName(value){
+//         if (typeof value!=='string')
+//         throw new Error('This is not string');      
+//         const parts=value.split(' ');
+//         if (parts.length !==2)
+//         throw new Error('Enter first and last name')
+//         this.firstName=parts[0];
+//         this.secondName=parts[1];
+//     }
+// };
+// try{
+//     person.fullName='';
+// }
+// catch(a){
+//     alert(a)
+// }
+// console.log(person.firstName)  
+
+
+// this 
